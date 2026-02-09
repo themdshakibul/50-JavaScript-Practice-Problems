@@ -45,6 +45,7 @@ console.log(reverse);
 
 // 42. string palindrome কিনা চেক করো
 //! Ans:
+
 // madam
 let str = "racecar";
 
@@ -55,3 +56,6 @@ if (palindrome === str) {
 } else {
   console.log(false);
 }
+
+
+
