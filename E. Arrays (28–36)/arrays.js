@@ -3,25 +3,25 @@
 let numbers = [10, 20, 30, 40, 50, 70];
 // for of loop
 for (const number of numbers) {
-  // console.log(number)
+  console.log(number)
 }
 // for loop
 for (let i = 0; i < numbers.length; i++) {
-  //   console.log(numbers[i]);
+    console.log(numbers[i]);
 }
 
 // 29. array এর length বের করো
 //! Ans
 const name = ["Md Shakibul Islam", "Rokibul", "Robiul"];
 const length = name.length;
-// console.log(length);
+console.log(length);
 
 // 30. array থেকে প্রথম ও শেষ element বের করো
 //! Ans
 const arr = [10, 20, 30, 40, 50, 60, 70];
 
-// console.log("Array First element :", arr[0]);
-// console.log("Array Last element :", arr[arr.length - 1]);
+console.log("Array First element :", arr[0]);
+console.log("Array Last element :", arr[arr.length - 1]);
 
 // 31. array এর সব সংখ্যার যোগফল বের করো
 //! Ans
@@ -32,7 +32,7 @@ let sum = 0;
 for (let i = 0; i < arr.length; i++) {
   sum += array[i];
 }
-// console.log("Array total Additional sum of :", sum);
+console.log("Array total Additional sum of :", sum);
 
 // 32. array থেকে even সংখ্যাগুলো বের করো
 //! Ans
@@ -41,7 +41,7 @@ const arra = [4, 5, 10, 12, 22, 33, 45, 1];
 //! for of loop
 for (const arr of arra) {
   if (arr % 2 === 0) {
-    // console.log(arr);
+    console.log(arr);
   }
 }
 
